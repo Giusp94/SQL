@@ -4,7 +4,7 @@ CREATE TABLE Books (
   author TEXT,
   genre TEXT,
   published_year INTEGER,
-  isbn TEXT,
+  isbn INTEGER,
   price INTEGER,
   rating INTEGER,
   stock_count INTEGER
