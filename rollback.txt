@@ -3,5 +3,5 @@ Stai testando il database rimuovendo un libro con BookID = 103, ma vuoi annullar
 */
 
 BEGIN TRANSACTION;
-DELETE FROM Books WHERE BookID=103;
+DELETE FROM Books WHERE book_id=103;
 ROLLBACK;
