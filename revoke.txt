@@ -1,0 +1,6 @@
+/*
+Martin ha commesso alcuni errori nell'aggiornare i dettagli del libro.
+ Revoca i suoi permessi di aggiornamento ma lascialo continuare a visualizzare i libri.
+*/
+
+REVOKE UPDATE ON Books TO 'martin'@'localhost'
