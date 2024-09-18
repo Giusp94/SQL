@@ -1,0 +1,104 @@
+INSERT INTO Books VALUES (
+  1,
+  'Un viaggio al centro',
+  'Jules Verne',
+  'Avventura',
+  1864,
+  1234567890123,
+  12.99,
+  4.5,
+  10,
+  'Verne Publishing',
+  350
+  );
+INSERT INTO Books VALUES (
+  2,
+  'Guerra e pace',
+  'Lev Tolstoj',
+  'Storico',
+  1869,
+  1234567890124,
+  14.99,
+  4.8,
+  5,
+  'Tolstoj Prints',
+  1200
+  );
+INSERT INTO Books VALUES (
+  3,
+  'Sussurri del vento',
+  'Amelia Blackburn',
+  'Romantico',
+  1982,
+  1234567890125,
+  9.99,
+  4.2,
+  20,
+  'Blackburn House',
+  275
+);
+INSERT INTO Books VALUES (
+  4,
+  'L Odissea Galattica',
+  'Orion Starfield',
+  'Fantascienza',
+  2005,
+  1234567890126,
+  19.99,
+  4.9,
+  15,
+  'Nebula Press',
+  450
+);
+
+select * FROM Books;
+
+
+/*
+Hai ricevuto nuovi articoli per la libreria. Inserisci i dettagli per i seguenti libri:
+
+"Un viaggio al centro" di Jules Verne
+
+Genere: Avventura
+Anno di pubblicazione: 1864
+Codice ISBN: 1234567890123
+Prezzo: $ 12,99
+Valutazione: 4.5
+Numero di scorte: 10
+Editore: Verne Publishing
+Pagine: 350
+     
+"Guerra e pace" di Lev Tolstoj
+
+Genere: Storico
+Anno di pubblicazione: 1869
+Codice ISBN: 1234567890124
+Prezzo: $ 14,99
+Valutazione: 4.8
+Numero di scorte: 5
+Editore: Tolstoj Prints
+Pagine: 1200
+
+"Sussurri del vento" di Amelia Blackburn
+
+Genere: Romantico
+Anno di pubblicazione: 1982
+Codice ISBN: 1234567890125
+Prezzo: $ 9,99
+Valutazione: 4.2
+Numero di scorte: 20
+Editore: Blackburn House
+Pagine: 275
+
+"L'Odissea Galattica" di Orion Starfield
+
+Genere: Fantascienza
+Anno di pubblicazione: 2005
+Codice ISBN: 1234567890126
+Prezzo: $ 19,99
+Valutazione: 4.9
+Numero di scorte: 15
+Editore: Nebula Press
+Pagine: 450
+Sulla base di questi dettagli, inserisci le informazioni nella tabella Libri.
+*/
