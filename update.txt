@@ -1,2 +1,15 @@
 UPDATE Books SET price = 10.00 WHERE book_id = 2;
 UPDATE Books SET stock_count = 4 WHERE book_id = 2;
+
+/*
+Si può scrivere in un unica riga così:
+
+UPDATE Books SET price = 10.00, stock_count = 4 WHERE book_id = 2;
+
+Anche SELECT può sottostare alle regole di WHERE:
+
+SELECT price, stock_count FROM Books
+WHERE price = 10.00
+
+-Questo mostrerà solo le colonne price e stock_count che hanno il price = 10.00
+*/

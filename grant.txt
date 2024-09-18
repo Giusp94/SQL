@@ -1,0 +1,8 @@
+/*
+Hai assunto un assistente per la libreria di nome Martin. 
+Concedigli il permesso di visualizzare e aggiornare la tabella Books, 
+ma non dovrebbe essere in grado di eliminare alcun record. 
+Indirizzo IP di Martinis martin@localhost .
+*/
+
+GRANT SELECT, UPDATE ON Books TO 'martin'@'localhost'
