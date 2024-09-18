@@ -1,0 +1,7 @@
+/*
+Stai testando il database rimuovendo un libro con BookID = 103, ma vuoi annullare la modifica subito dopo.
+*/
+
+BEGIN TRANSACTION;
+DELETE FROM Books WHERE BookID=103;
+ROLLBACK;

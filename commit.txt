@@ -3,6 +3,6 @@ Decidi di rimuovere un libro con BookID = 101 dalla tabella Books.
 Assicurati che questa modifica venga salvata in modo permanente.
 */
 
-BEGIN TRANSATION;
+BEGIN TRANSACTION;
 DELETE FROM Books WHERE book_id=101;
 COMMIT;
