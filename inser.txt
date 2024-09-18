@@ -51,7 +51,7 @@ INSERT INTO Books VALUES (
   450
 );
 
-select * FROM Books;
+SELECT * FROM Books;
 
 
 /*
