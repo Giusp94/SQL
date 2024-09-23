@@ -1,0 +1,8 @@
+/*
+Display female passengers who survived and are older than 30.
+*/
+SELECT name, sex, age, survived
+FROM tested
+WHERE sex = 'female'
+	AND survived > 0
+    AND age > 30

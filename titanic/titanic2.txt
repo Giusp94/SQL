@@ -1,0 +1,8 @@
+/*
+Find the average age of men who didn't survive.
+*/
+
+SELECT  name, sex, survived, AVG(age)
+FROM tested
+WHERE survived = 0
+	AND sex = 'male'

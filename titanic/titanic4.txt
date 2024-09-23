@@ -1,0 +1,8 @@
+/*
+Find the total number of the survivors in the first class.
+*/
+
+SELECT SUM(survived) AS 'total_survived'
+FROM tested
+WHERE pclass = 1
+	AND survived >0
